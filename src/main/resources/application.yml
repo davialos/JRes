@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    neo4j:
+      uri: bolt://localhost:7687
+      username: neo4j
+      password: test
+
+langraph:
+  api:
+    url: http://localhost:8081/langraph
